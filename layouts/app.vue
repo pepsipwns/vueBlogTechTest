@@ -22,21 +22,19 @@
             <li class="nav-item">
               <NuxtLink to="/Blog" class="nav-link" href="#">Blog</NuxtLink>
             </li>
+            <li class="nav-item">
+              <NuxtLink to="/Portfolio" class="nav-link" href="#">Portfolio</NuxtLink>
+            </li>
+            <li class="nav-item">
+              <NuxtLink to="/About" class="nav-link" href="#">About</NuxtLink>
+            </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <Nuxt />
   </div>
 </template>

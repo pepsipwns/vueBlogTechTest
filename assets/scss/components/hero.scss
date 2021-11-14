@@ -1,0 +1,17 @@
+.hero {
+  height: 460px;
+  position: relative;
+  &-text {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+.subtitle {
+  color: $light-grey;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+//Variables
+@import 'variables.scss';
+
+//Components
+@import 'components/hero.scss';
+@import 'components/cards.scss';
+
+//Layout
+@import 'layout/body.scss';
+@import 'layout/typography.scss';
+@import 'layout/buttons.scss';
+
+//Utils
+@import 'utils/helpers.scss';
+
+//Plugins
+@import '~bootstrap/scss/bootstrap';
